@@ -111,14 +111,15 @@ int main () {
 	
 	//muestro la fecha de nacimiento con valores solicitados anteriormente
 	
-	
-	printf("------------------------Termino del programa------------------------ \n\n");
-	
 	printf("La fecha de nacimiento ingresada es el dia: " );
 	printf("%d", dd);
 	printf("/" "%d", mm);
 	printf("/" "%d", yyyy);
 	printf("\n\n");
+	
+	printf("------------------------Termino del programa------------------------ \n\n");
+	
+	
 	
 	
 	return 0;
