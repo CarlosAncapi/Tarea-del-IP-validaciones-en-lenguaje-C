@@ -110,12 +110,15 @@ int main () {
 	}while(aux==1);
 	
 	//muestro la fecha de nacimiento con valores solicitados anteriormente
-	printf("La fecha de nacimiento ingresada es el dia: " "%d", dd);
-	printf(", del mes: " "%d", mm);
-	printf(", del anno : " "%d", yyyy);
-	printf("\n\n");
+	
 	
 	printf("------------------------Termino del programa------------------------ \n\n");
+	
+	printf("La fecha de nacimiento ingresada es el dia: " );
+	printf("%d", dd);
+	printf("/" "%d", mm);
+	printf("/" "%d", yyyy);
+	printf("\n\n");
 	
 	
 	return 0;
